@@ -1,2 +1,2 @@
 # FlySkyIBus
-FlySkyIBus for Arduino Mega
+FlySkyIBus for Arduino Mega & Atmega328PB
