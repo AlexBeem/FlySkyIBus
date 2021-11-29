@@ -1,4 +1,4 @@
-// #define DEBUG // В рабочей версии замаркировать определение
+#define DEBUG // В рабочей версии замаркировать определение
 // максимальное число параметров в канале телеметрии - 15
 
 #include <iBUSTelemetry.h>
@@ -18,7 +18,7 @@
 int ch = 14;                      // число каналов радиоаппаратуры RC
 
 #define UPDATE_INTERVAL 750
-iBUSTelemetry telemetry(7); // I use only PCINT2 interrupt vector, so you can use D2 to D7 pins.
+iBUSTelemetry telemetry(8); // I use only PCINT0 interrupt vector, so you can use D8 to D13 pins.
 
 uint32_t prevMillis = 0; // Necessary to updateValues() method. Look below.
 float i = 0;
