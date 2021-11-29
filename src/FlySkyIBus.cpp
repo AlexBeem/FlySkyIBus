@@ -68,7 +68,7 @@ void FlySkyIBus::loop(void)
 
       case GET_CHKSUMH:
         // Validate checksum
-        if (chksum == (v << 8) + lchksum)
+        if (chksum == static_cast<uint16_t>(v << 8) + lchksum) //if (chksum == (v << 8) + lchksum)
         {
           // Execute command - we only know command 0x40
           switch (buffer[0])
