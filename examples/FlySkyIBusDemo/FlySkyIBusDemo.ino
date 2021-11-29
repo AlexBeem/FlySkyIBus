@@ -21,7 +21,10 @@
  *  CH9 - 8   CH10 - 9  CH11 - 10  CH12 -11
  *  CH13 - 12 CH114 - 13
  */
- 
+
+// Порт определён в библиотеке FlySkyIBus.cpp с именем IBus 
+// FlySkyIBus IBus;
+//
 #include "FlySkyIBus.h"
  
 void setup()
