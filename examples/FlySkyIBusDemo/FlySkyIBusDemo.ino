@@ -33,5 +33,5 @@ void setup()
 void loop()
 {
   IBus.loop();
-  Serial.println(IBus.readChannel(0), DEC);
+  Serial.println(IBus.readChannel(2), DEC);
 }
