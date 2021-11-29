@@ -1,3 +1,5 @@
+// Скетч для AVR имеющих более одно UART порта
+
 #include "FlySkyIBus.h"             // IBus library
 int ch = 14;                        // число каналов радиоаппаратуры RC
 
